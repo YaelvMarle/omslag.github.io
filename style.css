@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&display=swap');
+
+/* Body en header settings */
+body, header {
+    margin: 0;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+/* Algemene opmaak main */
+main {
+    margin-top: 3.5rem;
+}
+
+/* HEADER NAVIGATIE - HOME */
+header {
+    background-color: #9e4226;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header a {
+    color: #FFFBF1;
+    font-family: "Cagliostro", sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 480;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+header img {
+    width: 20%;
+    margin: 0.7rem;
+}
+
+/* Home Sectie met Logo en Titel */
+.home {
+    background-color: #BFD1C4;
+    text-align: center;
+    padding: 5rem 1rem;
+    height: 20.3rem;
+}
+
+.home img.logo {
+    max-width: 250px;
+    margin-bottom: 0.2rem;
+}
+
+.home h1 {
+    font-size: 1.1rem;
+    color: #0B3029;
+    font-family: "Cagliostro", sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.illustratie-wrapper {
+    max-width: 340px;
+    margin-top: 3.1rem;
+}
+
+/* Intro */
+.intro {
+    background: #FFFBF1;
+    padding: 2rem;
+    text-align: left;
+    margin: 0;
+    margin-bottom: -1rem;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    color:  #0B3029;
+    font-weight: 450;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-family: "Cagliostro", sans-serif;
+}
+
+.intro p {
+    font-size: 0.8rem;
+    color: #0B3029;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-family: "Short Stack", cursive;
+}
+
+/* Home Button */
+.home_button {
+    display: inline-block;
+    background-color: #a25037;
+    color: white;
+    padding: 0.4rem 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Cagliostro", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    margin-top: 0.9rem;
+    margin-bottom: 2rem;
+    width: 8rem;
+    transition: background-color 0.3s;
+}
+
+.home_button:hover {
+    background-color: #0B3029;
+}
+
+/* OVER PAGINA */
+
+/* Gemeenschap */
+.window {
+    background: #FFFBF1; /* Beige achtergrond */
+    text-align: left;
+    height: 49rem;
+}
+
+.window h1 {
+    font-size: 2rem;
+    color: #0B3029;
+    font-weight: 500;
+    margin-top: 0.1rem;
+    margin-bottom: -1.9rem;
+    font-family: "Cagliostro", sans-serif;
+    padding: 2rem;
+}
+
+.window p {
+    font-size: 0.76rem;
+    color: #0B3029;
+    font-weight: 900;
+    line-height: 1.2rem;
+    font-family: "Short Stack", cursive;
+    padding: 0rem 2rem;
+}
+
+/* Duurzaam */
+.sustainable {
+    background: #0B3029;
+    text-align: left;
+    height: 61rem;
+}
+
+.sustainable img {
+    width: 100%;
+    margin: 0.7rem 0;
+}
+
+.sustainable h1 {
+    font-size: 2rem;
+    color: #C2D3C2;
+    font-family: "Cagliostro", sans-serif;
+    font-weight: 500;
+    padding: 2rem;
+    margin-bottom: -1.9rem;
+    margin-top: 0.1rem;
+}
+
+.sustainable p {
+    font-size: 0.76rem;
+    color: #C2D3C2;
+    font-family: "Short Stack", cursive;
+    line-height: 1.2rem;
+    padding: 0rem 2rem;
+}
+
+/* Meedoen */
+.build {
+    background: #FFFBF1;
+    text-align: left;
+}
+
+.build img {
+    width: 110%;
+    margin-left: -2.3rem;
+}
+
+.build h1 {
+    font-size: 2rem;
+    color: #233647;
+    font-weight: 500;
+    margin-top: 0;
+    font-family: "Cagliostro", sans-serif;
+    text-align: left;
+    padding: 2rem;
+    margin-bottom: -1.5rem;
+}
+
+.build p {
+    font-size: 0.76rem;
+    color: #233647;
+    font-weight: 900;
+    line-height: 1.5;
+    font-family: "Short Stack", cursive;
+    padding: 0rem 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Button stijl */
+.location {
+    display: inline-block;
+    background-color: #a25037;
+    color: white;
+    padding: 0.4rem 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Cagliostro", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    width: 8rem;
+    transition: background-color 0.3s;
+    margin-left: 2rem;
+}
+
+.location:hover {
+    background-color: #0B3029;
+}
+
+/* LOCATIES PAGINA */
+
+/* Introductie sectie */
+.locaties {
+    background: #FFFBF1;
+    padding: 1.5rem;
+    margin-top: -1rem;
+}
+
+.locaties h1 {
+    font-size: 1.8rem;
+    color: #333;
+    font-family: "Cagliostro", sans-serif;
+}
+
+.locaties p {
+    font-size: 0.75rem;
+    color: #233647;
+    font-family: "Short Stack", cursive;
+}
+
+/* Ruilbibliotheek rij styling */
+.library-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #C5D8CA;
+}
+
+/* Ruilbibliotheek styling */
+.library {
+    text-align: center;
+    flex: 1;
+    padding: 1rem;
+}
+
+.library img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.library h2 {
+    font-size: 1rem;
+    color: #333;
+    margin: 0.3rem 0;
+    font-family: "Cagliostro", sans-serif;
+}
+
+/* Button styling */
+.library a {
+    background-color: #0B3029;
+    color: #FFFFFF;
+    border-radius: 7px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: "Cagliostro", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: background-color 0.3s;
+    margin-top: 0.5rem;
+}
+
+.library a img {
+    width: 12px;
+    height: 12px;
+}
+
+.library a:hover {
+    background-color: #a25037;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0B3029;
+    color: white;
+    font-size: 0.9rem;
+    font-family: "Cagliostro", sans-serif;
+}
